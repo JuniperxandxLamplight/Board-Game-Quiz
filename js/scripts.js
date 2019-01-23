@@ -12,6 +12,8 @@ var animalInput = parseInt($("select#animal").val());
 
 total = socialInput + competeInput + timeInput + animalInput;
 
+alert(total);
+
 if (total <= 12) {
       $("#diploResult").show()
       $("#oneDeckResult").hide()
