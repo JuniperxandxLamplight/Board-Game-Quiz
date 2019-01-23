@@ -5,10 +5,10 @@ $("#boardgame").submit(function(event) {
 event.preventDefault();
 
 var total = 0;
-var socialInput = parseInt($("select#socializing").val());
-var competeInput = parseInt($("select#competition").val());
-var timeInput = parseInt($("select#time").val());
-var animalInput = parseInt($("select#animal").val());
+var socialInput = parseInt($("input:checkbox[name=socializing]:checked").val());
+var competeInput = parseInt($("input:checkbox[name=socializing]:checked").val());
+var timeInput = parseInt($("input:checkbox[name=socializing]:checked").val());
+var animalInput = parseInt($("input:checkbox[name=socializing]:checked").val());
 
 total = socialInput + competeInput + timeInput + animalInput;
 
