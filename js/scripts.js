@@ -12,8 +12,6 @@ var animalInput = parseInt($("input:checkbox[name=socializing]:checked").val());
 
 total = socialInput + competeInput + timeInput + animalInput;
 
-alert(total);
-
 if (total <= 12) {
       $("#diploResult").show()
       $("#oneDeckResult").hide()
